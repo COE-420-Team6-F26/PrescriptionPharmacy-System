@@ -1,4 +1,4 @@
-# *Initial Feasibility Study*
+# *Initial Feasibility Study:*
 
 ## Technical Feasibility
 The system can be developed using open-source, widely available software. Web development tools (frontend, backend, and database) can be used to build a web portal or application so patients can request orders and refills. No specialized hardware is required. Since the team has experience with these technologies, completing the system with our current skills is feasible.
