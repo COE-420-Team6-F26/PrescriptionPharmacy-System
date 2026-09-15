@@ -1,4 +1,4 @@
-# Project Scope
+# *Project Scope:*
 
 ## Project Objective
 Our objective for is to develop a web-based system that helps manage prescriptions, medications, patients, and pharmacy services. Patients can manage their information and request refills, while pharmacy staff can manage prescriptions and patient records. The system aims to reduce manual work and keep pharmacy information organized in one centralized system.
