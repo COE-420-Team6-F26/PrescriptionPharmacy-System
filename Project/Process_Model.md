@@ -1,4 +1,4 @@
-# Software Process Model
+# *Software Process Model:*
 
 ## Selected Model
 For our Prescription Refill and Pharmacy Pickup System, we selected the **Incremental Model** as the most appropriate software process model. The system is built in a number of smaller steps, each of which adds a set of functional characteristics. This approach is appropriate for our project because it has multiple related functions that may be developed independently.
