@@ -12,10 +12,11 @@ The Incremental Model is suited for our project since the system includes multip
 Each of which can be created separately. Each feature can be built and evaluated in stages before being merged into the rest of the system. This model also allows changes to requirements, since new requirements or improvements identified during development can be added to later increments. In addition, the Incremental Model suits our small development team, since members can work on different modules while coordinating their work through the shared GitHub repository.
 
 ## Overheads / Drawbacks & How We Will Manage Them
-**Drawback 1**: Integration problems when combining modules
+**Drawback 1**: Integration problems when combining modules  
 *How We Will Manage It*: Set up the database and system structure early, and test modules regularly against it
 
-**Drawback 2**: Testing takes more time, since each increment needs its own testing
+**Drawback 2**: Testing takes more time, since each increment needs its own testing \
 *How We Will Manage It*: Test each feature as it is developed, and perform integration testing when combining modules
+
 **Drawback 3**: Team coordination can be difficult across increments
 *How We Will Manage It*: Divide work clearly, communicate regularly, and use GitHub branches to avoid conflicts
