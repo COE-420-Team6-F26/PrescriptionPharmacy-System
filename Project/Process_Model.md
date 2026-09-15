@@ -9,6 +9,7 @@ The Incremental Model is suited for our project since the system includes multip
 - Medication Management 
 - Patient Information
 - Pharmacy pickup  
+
 Each of which can be created separately. Each feature can be built and evaluated in stages before being merged into the rest of the system. This model also allows changes to requirements, since new requirements or improvements identified during development can be added to later increments. In addition, the Incremental Model suits our small development team, since members can work on different modules while coordinating their work through the shared GitHub repository.
 
 ## Overheads / Drawbacks & How We Will Manage Them
