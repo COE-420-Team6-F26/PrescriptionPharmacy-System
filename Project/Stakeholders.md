@@ -1,4 +1,4 @@
-# Stakeholder Analysis
+# *Stakeholder Analysis:*
 | **Stakeholder** | **Role** | **Interest** / **Expectations** | **Influence on the System** | **How the System Affects the Stakeholder** |
 |---|---|---|---|---|
 | Patients / Customers | The people who will actually use the system to request refills | Want it to be quick, simple, and reliable, and want to know the status of their order | High, the whole system is built around what makes refilling prescriptions easier for them | Saves them time and effort, though patients who aren't comfortable with technology might struggle to use it |

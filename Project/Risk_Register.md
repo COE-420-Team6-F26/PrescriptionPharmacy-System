@@ -1,4 +1,4 @@
-# Project Risk Register
+# *Project Risk Register:*
 | **Risk ID** | **Risk Description** | **Possible Cause** | **Probability** | **Impact** | **Mitigation / Response Strategy** |
 |---|---|---|---|---|---|
 | R1 | Requirements for the system might change or not be fully clear while we are working on it | Stakeholder needs were not gathered in enough detail at the start, or expectations change as the project goes on | Medium | High | Review requirements together as a team early on and keep the scope documented clearly, so new requests are discussed before being added |

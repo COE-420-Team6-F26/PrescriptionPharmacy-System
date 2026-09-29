@@ -1,4 +1,4 @@
-
+# *Project Description:*
 
 The Prescription Pharmacy System is a web-based application designed to improve the process of managing prescriptions and pharmacy services. The system addresses the need for an organized and efficient way to manage prescriptions, medications, patients, and pharmacy operations.
 
