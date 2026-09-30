@@ -26,4 +26,4 @@
 **NFR-17**: (Security) The system shall prevent patients from viewing prescription or refill information belonging to other patients.  
 **NFR-18**: (Reliability) The system shall preserve the recorded status and timestamp of a refill request after the system is restarted.  
 **NFR-19**: (Usability) The system shall display the current refill request status using clear status labels such as Pending, Approved, Preparing, and Ready for Pickup.  
-**NFR-20**: (Auditability) The system shall retain the date, time, and previous status when a refill request status is changed.  
+**NFR-20**: (Portability) The system, as a web application, shall function across different browsers or computer systems.  
