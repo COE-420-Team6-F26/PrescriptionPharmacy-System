@@ -31,4 +31,3 @@ Some classes appeared in more than one individual diagram. They are owned by one
 | RefillRequest | Dima | Maryam | Kept as one class based on Dima's version; methods used by other components (updateStatus, getStatus) added |
 | Patient | Haya | Maryam | Kept as one class based on Haya's version |
 | PharmacyStaff | Haya | Maryam | Kept as one class based on Haya's version |
-| RequestStatus | — | Maryam, Dima | Two different value lists unified into one |
