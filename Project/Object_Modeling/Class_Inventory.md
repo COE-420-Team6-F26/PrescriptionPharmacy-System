@@ -1,4 +1,4 @@
-# Class Inventory / Consolidation Record  
+# *Class Inventory / Consolidation Record:*  
 
 ## 1. Approved Classes  
 
