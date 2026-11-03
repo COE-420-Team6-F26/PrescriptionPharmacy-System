@@ -9,7 +9,7 @@
 
 ## *Student 2 Contributions (Dima)*  
 **NFR-06**: (Reliability) The system shall not permit a prescription record to be created with missing required fields leading to incomplete records from entering the system.  
-**NFR-07**: (Security) Only users with roles “Doctor” or “Pharmacy Staff” are permitted to create or edit a prescription record.   
+**NFR-07**: (Security) Only users with role “Pharmacy Staff” are permitted to create or edit a prescription record.   
 **NFR-08**: (Performance) The system shall save a newly created prescription record and make it available for refill requests within 2 seconds.  
 **NFR-09**: (Usability) The system shall be able to locate a specific patient's prescription record using a search function.  
 **NFR-10**: (Robustness) The system shall reject an attempt to advance a refill request to the next stage out of sequence without crashing or corrupting the request record.  
