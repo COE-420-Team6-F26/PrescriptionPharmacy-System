@@ -62,6 +62,8 @@
 | UserAccount — creates — LoginSession | 1 — 0..* | One account can have many sessions |
 | LoginSession — generates — AuditLog | 1 — 0..* | Session events are recorded in the audit log |
 | AccessControl → UserAccount (dependency) | — | AccessControl uses UserAccount to check permissions |
+| InventoryItem — triggers — LowStockAlert | 1 — 0..* | An alert is created when an item's quantity falls below its threshold | 
+| UserAccount — logs — AuditLog | 1 — 0..* | Failed and denied login attempts are recorded for the account |
 
 ### Inheritance
 
