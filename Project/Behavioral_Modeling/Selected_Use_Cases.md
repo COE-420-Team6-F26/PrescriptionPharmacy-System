@@ -1,0 +1,8 @@
+# *Selected Use Cases for Sequence Modeling:*
+
+| Use Case ID | Use Case Name | Primary Actor | Purpose | Reason for Selection | Contributor |
+|---|---|---|---|---|---|
+| UC-01 | Input Refill Request | Patient | Allows a patient to request a refill for one of their active prescriptions | Core functionality of the system. It includes UC-16 View Active Prescriptions and UC-08 Validate Refill Eligibility, and saves the first status history entry. Uses Patient, Prescription, RefillRequest and RefillStatusHistory. | Dima |
+| UC-02 | Login | Patient / Pharmacy Staff | Authenticates a user and starts a session so they can access the system | Required before any other function. It shows authentication with retries, permission checking, session creation and audit logging across UserAccount, AccessControl, LoginSession and AuditLog. | Yuchang |
+| UC-13 | Update Inventory Stock | Pharmacy Staff | Allows staff to update medication stock levels | Has a conditional flow: if stock falls below the threshold, UC-14 Trigger Low Stock Alert extends it and an alert is sent to every staff member. Uses PharmacyStaff, InventoryItem, LowStockAlert and Notification. | Maryam |
+| UC-17 | Mark Refill as Ready for Pickup | Pharmacy Staff | Marks a prepared refill as ready and informs the patient of the pickup location | Completes the refill workflow. It includes UC-19 View Refill Request Details, UC-04 Inform Pickup and UC-12 Receive Order Status Notification, creates a PickupOrder and records the status change. Uses PharmacyStaff, RefillRequest, RefillStatusHistory, PickupOrder, Pharmacy and StatusNotification. | Haya |
