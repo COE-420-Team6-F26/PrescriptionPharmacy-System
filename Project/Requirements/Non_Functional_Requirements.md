@@ -1,4 +1,4 @@
-# Functional Requirements  
+# Non-Functional Requirements  
 
 ## *Student 1 Contributions (Haya)*  
 **NFR-01**: (Scalability) The system shall support a 3x amount of registered patients and daily refill requests.    
