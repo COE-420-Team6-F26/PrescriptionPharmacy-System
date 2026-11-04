@@ -26,7 +26,7 @@ Our objective for is to develop a web-based system that helps manage prescriptio
 
 ## Major Deliverables
 **The major deliverables of the project will include:**
-- A working web-based application with a user-friendly interface for patients, pharmacists, and pharmacy staff
+- A working web-based application with a user-friendly interface for patients, and pharmacy staff
 - A database for managing users, patients, prescriptions, medications, refill requests, and pharmacy information
 - Key modules: prescription management, prescription refills, and pharmacy pickup
 - Testing documentation
