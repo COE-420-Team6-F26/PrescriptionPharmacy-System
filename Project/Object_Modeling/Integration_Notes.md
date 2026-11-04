@@ -11,3 +11,6 @@
 | 5 | Added dateOfBirth to Patient | Required by register() and the Core Processes Matrix | Patient |
 | 6 | Aligned method names and added missing parameters | Inconsistent names between classes | PharmacyStaff, Patient, RefillRequest |
 | 7 | Added associations between components | Individual diagrams were not connected | Patient, PharmacyStaff, Prescription, PickupOrder, Pharmacy, Medication, InventoryItem |
+| 8 | Added association InventoryItem — triggers — LowStockAlert (1 — 0..*) | UC-13 sequence diagram shows InventoryItem creating and sending the alert | InventoryItem, LowStockAlert | 
+| 9 | Added association UserAccount — logs — AuditLog (1 — 0..*) | UC-02 sequence diagram shows UserAccount recording failed and denied logins | UserAccount, AuditLog | 
+| 10 | Changed note to "UC-14 <<extend>> UC-13" | UC-14 is the extending use case | InventoryItem (note) |
