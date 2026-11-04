@@ -11,7 +11,7 @@ Our objective for is to develop a web-based system that helps manage prescriptio
 **The system will include the following features:**
 - User registration, login, and role-based access
 - Patient information management
-- Prescription and refill management, including status tracking (pending, preparing, approved, ready for pickup, completed, rejected)
+- Prescription and refill management, including status tracking (pending, approved, preparing, ready for pickup, completed, rejected)
 - Medication management
 - Pharmacy information management
 - Pharmacy pickup management
