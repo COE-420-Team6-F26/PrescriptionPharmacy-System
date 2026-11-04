@@ -9,7 +9,7 @@
 
 ## *Student 2 Contributions (Dima)*  
 **FR-06**: The system shall allow a pharmacy staff member to create a new prescription record including medication name, dosage, & no. refills. *(Source: S-06, Pharmacy Staff)*  
-**FR-07**: The system shall allow a pharmacy staff to modify an existing prescription dosage or refill count if required change happens to the treatment. *(Source: S-06, Pharmacy Staff)*  
+**FR-07**: The system shall allow a pharmacy staff member to modify an existing prescription dosage or refill count if required change happens to the treatment. *(Source: S-06, Pharmacy Staff)*  
 **FR-08**: The system shall prevent a refill request from being submitted if the prescription has expired or has no more allowed refills. *(Source: S-01, Patient)*  
 **FR-09**: The system shall allow only a pharmacy staff member to advance a refill request to the next stage in sequence. *(Source: S-07, Pharmacy Staff)*  
 **FR-10**: The system shall allow a staff member to filter or sort refill requests by their current stage. *(Source: S-07, Pharmacy Staff)*  
