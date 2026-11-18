@@ -1,0 +1,6 @@
+# *Architectural Design Goals:*
+
+| Goal ID | Design Goal | Description | Related Requirements | Priority | Justification |
+|---|---|---|---|---|---|
+| ADG-01 | Security | Ensure that patient information, prescription records, and refill requests are protected through user authentication and role-based access control. | UC-02 Login, UC-05 Check User Details, UC-06 Create New Prescription, UC-07 Edit Existing Prescription; FR-01, NFR-07, NFR-14, NFR-17 | High | The system handles sensitive patient and prescription information. Security is essential to prevent unauthorized access and ensure that only staff can manage prescriptions and refill requests. |
+| ADG-02 | Maintainability | Design the system using separate components for user management, prescription management, refill processing, inventory management, and notifications so that changes can be made without affecting unrelated functionality. | UC-01 Input Refill Request, UC-09 Update Next Stage, UC-13 Update Inventory Stock, UC-17 Mark Refill as Ready for Pickup; NFR-02, NFR-15 | High | The system includes several interconnected functions that may require future updates. A maintainable architecture simplifies debugging, testing, and modification while reducing the risk of affecting other system components. |

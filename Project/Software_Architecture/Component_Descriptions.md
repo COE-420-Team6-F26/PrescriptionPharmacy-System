@@ -1,0 +1,9 @@
+# *Component Descriptions:*
+
+| ID | Component Name | Responsibilities | Supported Functionality |
+|---|---|---|---|
+| CO1 | User & Access Management | Manages user identities and account information. Authenticates users and creates and validates login sessions. Enforces role-based access control for patients and pharmacy staff. Logs login attempts and access events for accountability. | UC-02 Login, UC-05 Check User Details, UC-15 Register New Patient Account |
+| CO2 | Prescription Management | Stores and manages prescriptions and medication information. Allows staff to create and edit prescriptions and patients to view their active prescriptions. Verifies that a prescription is active and has refills remaining. | UC-06 Create New Prescription, UC-07 Edit Existing Prescription, UC-10 Search Patient Records, UC-16 View Active Prescriptions |
+| CO3 | Refill & Pickup Processing | Handles the full refill workflow: submitting requests, validating eligibility, reviewing requests, and updating request status. Records every status change in history. Creates pickup orders and provides the pharmacy pickup location. | UC-01 Input Refill Request, UC-03 View Queue of Incoming Requests, UC-04 Inform Pickup, UC-08 Validate Refill Eligibility, UC-09 Update Next Stage, UC-11 Reject Refill Request, UC-17 Mark Refill as Ready for Pickup, UC-18 View Pickup Location, UC-19 View Refill Request Details, UC-20 View Refill Status History |
+| CO4 | Inventory Management | Maintains medication stock levels and low-stock thresholds. Updates stock quantities and detects when stock falls below the threshold. | UC-13 Update Inventory Stock, UC-14 Trigger Low Stock Alert |
+| CO5 | Notification | Creates and sends status notifications to patients and low-stock alerts to pharmacy staff. Records alert acknowledgement. | UC-12 Receive Order Status Notification, UC-14 Trigger Low Stock Alert |
